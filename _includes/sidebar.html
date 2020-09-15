@@ -69,7 +69,7 @@
             <ol class="list-unstyled">
                 {% for sibling in siblings %}
                     <li>
-                        <a href="/gemma-zaken{{ sibling.url }}">{{ sibling.title }}</a>
+                        <a href="/{{ site.project_name }}{{ sibling.url }}">{{ sibling.title }}</a>
                     </li>
                 {% endfor %}
             </ol>
