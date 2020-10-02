@@ -8,7 +8,7 @@
             <div class="page-header-img">
                 {% assign source = page.header-img | relative_url %}
                 <!-- img class="img-fluid d-block my-0 mx-auto" src="{% if source %}{{ source }}{% else %}{{ "/assets/img/banner-leeg.png" | relative_url }}{% endif %}" -->
-                <img class="img-fluid d-block my-0 mx-auto" src="{% if source %}{{ source }}{% else %}{{ "/img/sample-image.jpg" | relative_url }}{% endif %}">
+                <img class="img-fluid d-block my-0 mx-auto" height="1" width="1" src="{% if source %}{{ source }}{% else %}{{ "/img/sample-image.jpg" | relative_url }}{% endif %}">
             </div>
         </div>
 
